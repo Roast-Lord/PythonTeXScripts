@@ -1,9 +1,6 @@
-import numpy as np
-import sympy as sp
-import math
 from fractions import Fraction
-
-#This Function prints any matrix in LaTeX.
+import numpy as np
+#This Function prints any numpy matrix in LaTeX.
 
 def newterm(j,size):
     #This is an auxiliar function that chooses whether or not to print '&' after a new term of the matrix.
