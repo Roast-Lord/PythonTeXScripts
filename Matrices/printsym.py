@@ -1,11 +1,9 @@
 # This function prints a symbolic matrix.
 
-
 def newterm(j, size):
     # This is an auxiliar function that chooses whether or not to print '&' after a new term of the matrix.
     if (j < size):
         print(end=r"& ")
-
 
 def printsym(nl, nc=1, sym='a', t='b'):
 
