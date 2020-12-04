@@ -1,6 +1,8 @@
 from fractions import Fraction
 import numpy as np
+
 #This Function prints any numpy matrix in LaTeX.
+#Don't forget to use the amsmath package by writing \includepackage{amsmath} in your document preamble.
 
 def newterm(j,size):
     #This is an auxiliar function that chooses whether or not to print '&' after a new term of the matrix.

@@ -1,4 +1,5 @@
 # This function prints a symbolic matrix.
+#Don't forget to use the amsmath package by writing \includepackage{amsmath} in your document preamble.
 
 def newterm(j, size):
     # This is an auxiliar function that chooses whether or not to print '&' after a new term of the matrix.
